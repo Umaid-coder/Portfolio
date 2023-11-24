@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/03cdd61afb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png"  class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Serives</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+                <div class="header-text">
+                    <p> Web developer / Java developer</p>
+                    <h1>Hi, I'm <span> Umaid Ali</span> <br> Mugheri  From Larkana</h1>
+                </div>
+        </div>
+<!------------------------------about----------------------->
+
+    </div>
+ 
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/6.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p> I am Umaid Ali From District Kamber Shahdadkot. 
+                            I have completed my Bacholar degree from Mehran University of Engineering and Technology.
+                             I am Java and FrontEnd developer. I have 1 year Experience as java Trainee at Bell Academy Hyderabad.
+                            I worked as Subject Specilist at  NJV higher Secondary karachi.I have completed IT support internship
+                        as IT support and also Attended Training as Technical Support Engineer at Sybrid Company.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('experience')" >Experience</p>
+                            <p class="tab-links"onclick="opentab('education')" >Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>java/web</span><br>design desktop/web interface</li>
+                                <li><span>java development </span><br> desktop application </li>
+                                <li><span>web development</span><br>web app development</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021 dec- 2022 feb  </span><br>web development training at NFTP</li>
+                                <li><span>2021-2022 </span><br> Java Trainee at bell Academy in Hyderabad </li>
+                                <li><span>jan 2023- july </span><br>Subject Specilist Teacher at higher Secondary teacher</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021</span><br> java developer a bell Academy  in Hyderabad</li>
+                                <li><span>2022 </span><br> B.E CS from MUET Jamshoro </li>
+                                <li><span>2022</span><br>web development training at NTFP</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       <!------------------------------Services------------------------------->
+       <div id="services">
+        <div class="container">
+            <h1 class="sub-title">MY services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Java Development</h2>
+                <p>A Java Developer is a programmer who designs, develops,
+                     and manages Java-based applications and software. </p>
+                    <a href="#"> Learn more </a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3"></i>
+                    
+                    <h2>Web Design</h2>
+                    <p>Create a Professional Website, Register Your Domain & Grow Your Business Online with Wix.
+                         It all Starts with a Professional Website. </p>
+                        <a href="#"> Learn more </a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2> C++ Development</h2>
+                    <p>his requires for your class to implement copy assignment operator (or move assignment), 
+                        which compiler won't generate for you due to const fields in the class. </p>
+                        <a href="#"> Learn more </a>
+                </div>
+
+
+            </div>
+
+
+        </div>
+       </div>
+
+       <!-----------------------------Portfolio---------------------------->
+       <div id="protfolio">
+        <div class="containter">
+            <h1 class="sub-title">MY Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/7.jpg" >
+                    <div class="layer">
+                        <h3>Social Media app</h3>
+                        <p>The app connect you to the talent 
+                            people around the wold
+                            download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/7.jpg" >
+                    <div class="layer">
+                        <h3>Music  app</h3>
+                        <p>The app connect you to the talent 
+                            people around the wold
+                            download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/7.jpg" >
+                    <div class="layer">
+                        <h3>Online Shopping app</h3>
+                        <p>The app connect you to the talent 
+                            people around the wold
+                            download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn"> See More </a>
+        </div>
+ </div>
+<!--------------------------------------------------Contact--------------------------->
+
+<div id="contact">
+
+    <div class="container">
+        <div class="row">
+
+           <div class="contact-left">
+            <h1 class="sub-title">Contatc Me</h1>
+            <p> <i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+            <p> <i class="fa-solid fa-square-phone"></i>0123456789</p>
+            <div class="social-icons">
+                <a href="https://facebook-com"><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+
+  </div> 
+           <div class="contact-right">
+            <form >
+                <input type="text" name="Name" placeholder="Yur Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message"  rows="6" placeholder="Your Meesage"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+           </div> 
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright@ Umaid.<i class="fa-solid fa-heart"></i> Made by me</p>
+    </div>
+</div>
+
+
+
+
+
+<script>
+
+      var tablinks=document.getElementsByClassName("tab-links");
+      var tabcontents=document.getElementsByClassName("tab-contents");
+      
+       function opentab(tabname){
+           for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+       }
+
+</script>
+<script>
+ 
+    var sidemenu=document.getElementById("sidemenu");
+   
+    function openmenu(){
+   
+       sidemenu.style.right="0";
+    }
+    function closemenu(){
+   
+   sidemenu.style.right="-200px";
+   }
+   
+   
+   </script>
+   <script>
+    const scriptURL = '<SCRIPT URL>'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function())
+            msg.innerHTML=""
+        })
+        .catch(error => console.error('Error!', error.message))
+    },5000)
+    form.reset()
+  </script>
+   
+          
+</body>
+</html>
